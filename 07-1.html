@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularz rezerwacji biletu lotniczego</h1>
+    <form method="get">
+<p>
+    Twoje imię:
+    <input type="text" placeholder="Tu wpisz swoje imię" name="imię">
+</p>
+<p>
+    Twoje nazwisko:
+    <input type="text" placeholder="Tu wpisz swoje nazwisko" name="nazwisko">
+</p>
+<p>
+    Data wylotu:
+    <input type="text" placeholder="Tu wpisz datę wylotu" name="data"/>
+</p>
+<p>
+    Wylot z:
+    <select name="wylot">
+        <option value="w1">Kraków</option>
+        <option value="w2">Gdynia</option>
+    </select>
+</p>
+<p>
+    Przylot z:
+    <select name="wylot">
+        <option value="w1">Kraków</option>
+        <option value="w2">Gdynia</option>
+    </select>
+</p>
+<p>
+    Klasa VIP:
+    <input type="radio" name="wybor" value="Yes"/> Tak
+    <input type="radio" name="wybor" value="No"/> Nie
+</p>
+<p>
+    Posiłek:
+<input type="checkbox" name="posiłek1" value="przystawka"/> przystawka
+<input type="checkbox" name="posiłek2" value="obiad"/> obiad
+<input type="checkbox" name="posiłek3" value="deser"/> deser
+</p>
+<p>
+    Dodatkowe uwagi:
+    <textarea name="Dodatkowe uwagi" placeholder="Tu wpisz dodatkowe uwagi"></textarea>
+</p>
+<button type="sumbit">Zarezerwuj</button> 
+<input type="reset" value="Anuluj"/>
+</form>
+</body>
+</html>
